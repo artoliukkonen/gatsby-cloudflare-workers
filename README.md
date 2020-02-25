@@ -17,7 +17,7 @@ Cloudflare Workers allows developers to write and deploy applications at the edg
 You can use this repository as a template to build your own static site, using the `wrangler generate` command. If you haven't installed Wrangler yet, try our [Quick Start guide](https://workers.cloudflare.com/docs/quickstart/cli-setup/) for installing Wrangler, and getting up and running with Cloudflare Workers! Once you've done that, you can pass this repository to the `generate` command to make a new project locally:
 
 ```shell
-wrangler generate https://github.com/signalnerve/gatsby-cloudflare-workers
+wrangler generate my-gatsby-site https://github.com/signalnerve/gatsby-cloudflare-workers
 ```
 
 Configure your deployment by opening up `wrangler.toml`:
